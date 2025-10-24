@@ -1,6 +1,7 @@
 import carpetImg from '../assets/carpet-product.jpg';
 import woodenImg from '../assets/wooden-handicraft.jpg';
 import brassImg from '../assets/brass-items.jpg';
+import jwlery from   "../assets/download.webp";
 
 export const products = [
   {
@@ -24,7 +25,7 @@ export const products = [
       material: 'Wool / Silk blend options',
       origin: 'India',
       weave: 'Hand-knotted / Hand-tufted',
-      leadTime: '2-4 weeks for custom orders',
+   
     },
     materialsCare:
       'Vacuum regularly using a brushless suction head. Rotate periodically to ensure even wear. Blot spills immediately with a clean, dry cloth.',
@@ -52,7 +53,7 @@ export const products = [
       material: 'Sheesham / Mango / Teak wood',
       origin: 'India',
       finish: 'Matte / Satin / Oil finish',
-      leadTime: '1-3 weeks depending on size',
+     
     },
     materialsCare:
       'Wipe with a soft dry cloth. Avoid direct sunlight and moisture. Use natural oil polish occasionally to maintain sheen.',
@@ -80,12 +81,42 @@ export const products = [
       material: 'Solid brass',
       origin: 'India',
       finish: 'Polished / Antique / Brushed',
-      leadTime: '1-2 weeks for standard sets',
+
+    
     },
     materialsCare:
       'Use a soft cloth to remove fingerprints. For deeper cleaning, apply mild brass polish sparingly and buff gently.',
     shipping:
       'Packed with anti-tarnish wrapping. Bulk discounts and custom set curation available.',
+  },
+  {
+    id: 'jewelry',
+    slug: 'artificial-jewelry',
+    title: 'Artificial Jewelry',
+    subtitle: 'Statement pieces with modern flair',
+    image: jwlery,
+    images: [jwlery, jwlery, jwlery],
+    description:
+      'Elegant artificial jewelry crafted with premium materials and finishes—perfect for weddings, events, and everyday style.',
+    longDescription:
+      'Our artificial jewelry collection blends contemporary design with traditional aesthetics. Each piece is crafted with precision settings, skin-friendly plating, and durable construction to retain shine and charm over time. Ideal for boutiques, gifting, bridal trousseau, and lifestyle stores.',
+    features: [
+      'Hypoallergenic, nickel-free plating',
+      'High-polish finish with stone embellishments',
+      'Lightweight yet durable build',
+      'Custom color tones and sets available',
+    ],
+    specs: {
+      material: 'Alloy base with gold/rhodium plating',
+      origin: 'India',
+      finish: 'Gold / Rose Gold / Rhodium',
+   
+
+    },
+    materialsCare:
+      'Keep away from water, perfumes, and chemicals. Store in an air-tight pouch. Wipe gently with a soft dry cloth after use.',
+    shipping:
+      'Packed in tamper-proof boxes with anti-tarnish pouches. Bulk and custom set curation available for international orders.',
   },
 ];
 
